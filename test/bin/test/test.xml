@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<Parent xmlns="http://www.example.org/test">
-    <Child Name="child" Age="3" />
-    <Child Age="5" Name="child2" />
-</Parent>
