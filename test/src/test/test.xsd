@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.example.org/test" xmlns:tns="http://www.example.org/test" elementFormDefault="qualified">
+    <xs:element name="Parent">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="Child" minOccurs="0" maxOccurs="unbounded">
+                	<xs:complexType>
+	                    <xs:attribute name="Name" use="required">
+	                        <xs:simpleType>
+	                            <xs:restriction base="xs:string">
+	                                <xs:maxLength value="10" />    
+	                            </xs:restriction>
+	                        </xs:simpleType>
+	                    </xs:attribute>	                
+	                	<xs:attribute name="Age" use="required">
+	                		<xs:simpleType>
+	                			<xs:restriction base="xs:integer">
+	                				<xs:totalDigits value="3" />
+	                			</xs:restriction>
+	                		</xs:simpleType>
+	                	</xs:attribute>
+	                </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+</xs:schema>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><Result xmlns="test">
+<Infomation Age="2" Gender="Female" Name="r-aoki">
+		<Favorite>orange</Favorite>
+	</Infomation>
+<Infomation Age="4" Gender="Female" Name="r-aoki">
+		<Favorite>chocolate</Favorite>
+	</Infomation>
+<Infomation Age="6" Gender="Female" Name="r-aoki">
+		<Favorite>cat</Favorite>
+	</Infomation>
+<Infomation Age="8" Gender="Female" Name="r-aoki">
+		<Favorite>peach</Favorite>
+	</Infomation>
+<Infomation Age="10" Gender="Female" Name="r-aoki">
+		<Favorite>video-game</Favorite>
+	</Infomation>
+<Area City=""/>
+</Result>

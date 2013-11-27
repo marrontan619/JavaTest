@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<User>
+	<Infomation Age="1" Gender="Male" Name="r-aoki">
+		<Favorite>apple</Favorite>
+	</Infomation>
+	<Infomation Age="2" Gender="Female" Name="r-aoki">
+		<Favorite>orange</Favorite>
+	</Infomation>
+	<Infomation Age="3" Gender="Male" Name="r-aoki">
+		<Favorite>grape</Favorite>
+	</Infomation>
+	<Infomation Age="4" Gender="Female" Name="r-aoki">
+		<Favorite>chocolate</Favorite>
+	</Infomation>
+	<Infomation Age="5" Gender="Male" Name="r-aoki">
+		<Favorite>rice</Favorite>
+	</Infomation>
+	<Infomation Age="6" Gender="Female" Name="r-aoki">
+		<Favorite>cat</Favorite>
+	</Infomation>
+	<Infomation Age="7" Gender="Male" Name="r-aoki">
+		<Favorite>dog</Favorite>
+	</Infomation>
+	<Infomation Age="8" Gender="Female" Name="r-aoki">
+		<Favorite>peach</Favorite>
+	</Infomation>
+	<Infomation Age="9" Gender="Male" Name="r-aoki">
+		<Favorite>sleep</Favorite>
+	</Infomation>
+	<Infomation Age="10" Gender="Female" Name="r-aoki">
+		<Favorite>video-game</Favorite>
+	</Infomation>
+</User>
