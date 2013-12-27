@@ -1,3 +1,5 @@
 .*
-!.gitignore
+!/.gitignore
 /test/bin/
+/test/src/loaders/
+/test/src/test/Temp.java
