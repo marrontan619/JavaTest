@@ -1,6 +1,7 @@
 package test;
 
 import java.text.ParseException;
+import java.util.Calendar;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -12,6 +13,18 @@ import java.util.regex.Pattern;
  */
 public class Hello {
   public static void main(String[] args) throws ParseException {
-      System.out.println("Hello, Git.");
+      cal(2013, 2, 2);
+  }
+  
+  /**
+   * 日曜日=1 ～ 土曜日=7 だった
+   * @param year
+   * @param month
+   * @param date
+   */
+  public static void cal(int year, int month, int date) {
+      Calendar calendar = Calendar.getInstance();
+      calendar.set(year, month, date);
+      System.out.println(calendar.get(Calendar.DAY_OF_WEEK));
   }
 }
