@@ -96,7 +96,6 @@ public class LoadTargetMaker {
                 fw = new FileWriter(file, true);
                 fw.append(sb.toString());
                 fw.flush();
-                fw.close();
             } catch (IOException e) {
                 e.printStackTrace();
             } finally {
