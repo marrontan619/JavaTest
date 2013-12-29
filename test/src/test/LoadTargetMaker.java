@@ -84,8 +84,7 @@ public class LoadTargetMaker {
                         line[9] = price[priceRate - 1];
                         line[10] = price[priceRate - 1];
                         
-                        sb.appendWithSeparators(line, separator);
-                        sb.appendNewLine();
+                        sb.appendWithSeparators(line, separator).appendNewLine();
                     }
                     day.add(Calendar.DATE, 1);
                 }
