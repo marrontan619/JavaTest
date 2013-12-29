@@ -17,6 +17,10 @@ public class Hello {
     public static void main(String[] args) throws ParseException {
         temp();
     }
+    
+    public static void hello() {
+        System.out.println("Hello, Java.");
+    }
   
     /**
      * 日曜日=1 ～ 土曜日=7 だった
